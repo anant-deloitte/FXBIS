@@ -1,5 +1,5 @@
 /* Transformation Name ==>Sequential_File ,Transformation Type ==>Target */
-
+-- testing mergejob
 {{
 	config(
 		materialized='incremental',
