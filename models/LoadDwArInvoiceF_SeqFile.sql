@@ -1,11 +1,3 @@
-{{
-	config(
-		materialized='incremental',
-		schema='ITSS_AR',
-		unique_key=['ARINV_TRX_ID','ARINV_LN_LINE_ID'],
-        alias='DW_AR_INVOICE_F'
-	)
-}}
 
 With HashDwBillingTypeD_2_newDSSourceOut as (
 	Select BILLING_TYPE_ORG_ID, 
